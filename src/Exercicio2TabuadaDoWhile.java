@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio3TabuadaDoWhile {
+public class Exercicio2TabuadaDoWhile {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
