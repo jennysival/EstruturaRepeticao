@@ -9,8 +9,8 @@ public class Exercicio4 {
 
     int i = 0;
         while(i<=numero){
-            i++;
             System.out.println(i);
+            i++;
         }
     }
 }
