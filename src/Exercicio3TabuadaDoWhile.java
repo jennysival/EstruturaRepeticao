@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio2Tabuada {
+public class Exercicio3TabuadaDoWhile {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
@@ -8,10 +8,12 @@ public class Exercicio2Tabuada {
         int tab = leitor.nextInt();
         leitor.close();
         
-        for(int i = 0; i <= 10; i++){
+        int i = 0;
+        do{
             int resultado = tab * i;
-
             System.out.println(tab + "x" + i + "=" + resultado);
-        }
+            i++;
+        }while(i<=10);
     }
-}
+    }
+
